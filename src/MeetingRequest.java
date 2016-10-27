@@ -4,12 +4,14 @@ import java.time.LocalTime;
 /**
  * Created by Finbar on 27/10/2016.
  */
-public class MeetingRequest implements Request {
+public class MeetingRequest extends Request {
 
-    LocalDate date;
+    int roomNum;
 
-    LocalDate time;
+    public MeetingRequest(int roomNum) {
 
-    MeetingRoom meetingRoom;
+        this.roomNum = roomNum;
+        description = "Meeting Request for " + roomNum;
+    }
 
 }
