@@ -6,7 +6,7 @@ import java.util.List;
  */
 public class LeaveRequest extends Request {
 
-    Employee employee;
+    private Employee employee;
 
     public LeaveRequest(Employee employee) {
 

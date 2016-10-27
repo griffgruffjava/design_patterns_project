@@ -3,8 +3,8 @@
  */
 public class Attendee extends RequestDecorator {
 
-    Request request;
-    Employee employee;
+    private Request request;
+    private Employee employee;
 
     public Attendee(Request request, Employee employee){
         this.request = request;

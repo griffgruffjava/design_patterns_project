@@ -6,7 +6,7 @@ import java.time.LocalTime;
  */
 public class MeetingRequest extends Request {
 
-    int roomNum;
+    private int roomNum;
 
     public MeetingRequest(int roomNum) {
 

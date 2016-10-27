@@ -3,7 +3,7 @@
  */
 public class LeaveType extends RequestDecorator {
 
-    Request request;
+    private Request request;
 
 
 
