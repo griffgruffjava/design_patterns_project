@@ -14,6 +14,6 @@ public class Attendee extends RequestDecorator {
 
     @Override
     public String getDescription() {
-        return request.getDescription() + "Attendee = " + employee.getName();
+        return request.getDescription() + "\nAttendee = " + employee.getName();
     }
 }

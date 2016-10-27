@@ -1,10 +1,14 @@
 /**
  * Created by Finbar on 27/10/2016.
  */
-public enum LeaveType {
+public class LeaveType extends RequestDecorator {
 
-    SICK_LEAVE_CERTIFIED,
-    SICK_LEAVE_NON_CERTIFIED,
-    HOLIDAY,
-    STUDY_LEAVE;
+    Request request;
+
+
+
+    @Override
+    public String getDescription() {
+        return null;
+    }
 }
