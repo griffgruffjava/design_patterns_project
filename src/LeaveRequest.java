@@ -11,6 +11,6 @@ public class LeaveRequest extends Request {
     public LeaveRequest(Employee employee) {
 
         this.employee = employee;
-        description = "Leave Request for " + employee;
+        description = "Leave Request for " + employee.getName();
     }
 }

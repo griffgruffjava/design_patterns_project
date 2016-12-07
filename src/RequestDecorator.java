@@ -3,5 +3,5 @@
  */
 public abstract class RequestDecorator extends Request{
 
-    public abstract String getDescription();
+//    public abstract String getDescription();
 }

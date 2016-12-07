@@ -16,7 +16,7 @@ public class Holiday extends RequestDecorator{
 
     @Override
     public String getDescription() {
-        return null;
+        return request.getDescription() + "\nLeave Type = Holiday\nLeave Date = " + date;
     }
 
     public int getWeight(){
